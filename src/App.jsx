@@ -1,8 +1,8 @@
 // App.jsx
 import { useState } from 'react';
-import StartScreen from './components/StartScreen';
-import Quiz from './components/Quiz';
-import Result from './components/Result';
+import StartScreen from './components/startscreen';
+import Quiz from './components/quiz';
+import Result from './components/result';
 import questions from './data/questions';
 
 function App() {
