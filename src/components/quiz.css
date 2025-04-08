@@ -1,0 +1,57 @@
+/*CSS for the quiz screen*/
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color-1);
+    margin-top: -8px;
+    margin-left: -8px;
+    color: var(--font-color-1);
+    width: 1400px;
+    height: 1100px;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+
+.options {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: -2px;
+  padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 2.7rem;
+    letter-spacing: 0.11rem;
+    max-width: 1200px;
+}
+
+li {
+  background-color: var(--background-color-2);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.7rem;
+  letter-spacing: 0.08rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+li:hover {
+  box-shadow: 0 1px 30px var(--background-color-2);
+  transform: translateY(2px);
+  transition: ease 0.4s;
+}
+
+.p3 {
+    margin-top: 10px;
+}

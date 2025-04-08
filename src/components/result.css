@@ -1,0 +1,30 @@
+/*CSS for the result screen*/
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/public/images/sonuçekranı.png);
+    margin-top: -8px;
+    margin-left: -8px;
+    color: var(--font-color-1);
+    width: 1400px;
+    height: 1100px;
+}
+
+h3 {
+    background: linear-gradient(to bottom, #10fdbeec, #8c00ff);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+      font-weight: bold;
+      font-size: 8rem;
+      letter-spacing: 0.20rem;
+      margin-top: 330px;
+}
+
+.p4 {
+    margin-top: -30px;
+    font-size: 3.5rem;
+    letter-spacing: 0.14rem;
+}
