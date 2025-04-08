@@ -6,7 +6,7 @@ A **quiz application** built with **React** and **Vite**. Users can answer quest
 
 You can check out the live version of the app here:
 
-[Live Demo on Netlify](https://your-netlify-link-here)
+[Live Demo on Netlify](https://questionapp07.netlify.app)
 
 ## Technologies Used
 
