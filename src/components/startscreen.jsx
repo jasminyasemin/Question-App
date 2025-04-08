@@ -1,5 +1,5 @@
 // components/StartScreen.jsx
-import './StartScreen.css';
+import './startscreen.css';
 
 const StartScreen = ({ onStart }) => {
     return (
