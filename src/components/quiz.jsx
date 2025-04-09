@@ -6,7 +6,7 @@ const Quiz = ({ questions, onFinish }) => {
   const [seconds, setSeconds] = useState(0);
   const [showOptions, setShowOptions] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
-
+// timer 
   useEffect(() => {
     const timer = setInterval(() => {
       setSeconds((s) => s + 1);

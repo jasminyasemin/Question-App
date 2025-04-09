@@ -1,4 +1,3 @@
-// components/StartScreen.jsx
 import './startscreen.css';
 
 const StartScreen = ({ onStart }) => {
