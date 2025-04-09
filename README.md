@@ -14,3 +14,4 @@ You can check out the live version of the app here:
 - **Vite**
 - **CSS**
 - **JavaScript**
+- **HTML**
