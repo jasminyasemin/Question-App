@@ -1,4 +1,3 @@
-// components/Quiz.jsx
 import { useEffect, useState } from 'react';
 import './quiz.css';
 
@@ -36,6 +35,7 @@ const Quiz = ({ questions, onFinish }) => {
     <div className="quiz">
       {q.image && <img src={q.image} alt="question visual" />}
       <h2>{q.question}</h2>
+
       {showOptions ? (
         <ul className="options">
           {q.options.map((opt, i) => (
@@ -43,9 +43,22 @@ const Quiz = ({ questions, onFinish }) => {
           ))}
         </ul>
       ) : (
-        <p className='p3'>Hazırlan...</p>
+        <p className="p3">Hazırlan...</p>
       )}
-      <p className='p3'>Süre: {seconds}s</p>
+
+   {/* 👾 PACMAN ZAMAN ÇİZGİSİ */}
+   <div className="timeline">
+  {Array.from({ length: 30 }).map((_, i) => (
+    <div key={i} className={`dot ${i < seconds ? 'eaten' : ''}`} />
+  ))}
+
+  <div
+    className="pacman"
+    style={{ left: `${-27 + seconds * 16}px` }} // 26px = 10 (dot) + 16 (margin)
+  />
+</div>
+
+      <p className="p3">Süre: {seconds}s</p>
     </div>
   );
 };
