@@ -46,7 +46,7 @@ const Quiz = ({ questions, onFinish }) => {
         <p className="p3">Hazırlan...</p>
       )}
 
-   {/* 👾 PACMAN ZAMAN ÇİZGİSİ */}
+   {/* PACMAN ZAMAN ÇİZGİSİ */}
    <div className="timeline">
   {Array.from({ length: 30 }).map((_, i) => (
     <div key={i} className={`dot ${i < seconds ? 'eaten' : ''}`} />
@@ -54,11 +54,9 @@ const Quiz = ({ questions, onFinish }) => {
 
   <div
     className="pacman"
-    style={{ left: `${-27 + seconds * 16}px` }} // 26px = 10 (dot) + 16 (margin)
+    style={{ left: `${-27 + seconds * 16}px` }}
   />
 </div>
-
-      <p className="p3">Süre: {seconds}s</p>
     </div>
   );
 };
