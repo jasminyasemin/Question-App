@@ -13,10 +13,10 @@ const Result = ({ questions, answers }) => {
   
     return (
       <div className="result">
-        <h3>Quiz Finished!</h3>
-        <p className='p4'>Correct: {correctCount}</p>
-        <p className='p4'>Wrong: {wrongCount}</p>
-        <p className='p4'>Skipped: {skippedCount}</p>
+        <h3>Quiz Tamamlandı!</h3>
+        <p className='p4'>Doğru: {correctCount}</p>
+        <p className='p4'>Yanlış: {wrongCount}</p>
+        <p className='p4'>Boş: {skippedCount}</p>
       </div>
     );
   };
