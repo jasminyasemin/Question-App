@@ -59,3 +59,25 @@ h3 {
     margin-top: -15px;
     margin-bottom: -16px;
 }
+
+.result-icon {
+    height: 80px;
+    margin-top: -3px;
+    margin-bottom: -25px;
+}
+
+.result-icon2 {
+    height: 80px;
+    margin-top: -3px;
+    margin-bottom: -25px;
+    margin-left: -8px;
+    padding-right: 11px;
+}
+
+.result-icon3 {
+    height: 60px;
+    margin-top: -8px;
+    margin-bottom: -18px;
+    margin-left: -33px;
+    padding-right: 18px;
+}

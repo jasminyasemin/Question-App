@@ -22,9 +22,9 @@ const Result = ({ questions, answers }) => {
   return (
     <div className="result">
       <h3>Quiz Tamamlandı!</h3>
-      <p className="p4">Doğru: {correctCount}</p>
-      <p className="p4">Yanlış: {wrongCount}</p>
-      <p className="p4">Boş: {skippedCount}</p>
+      <p className="p4"><img src="/images/thumbsup.png" alt="Doğru" className='result-icon' />Doğru: {correctCount}</p>
+      <p className="p4"><img src="/images/thumbsdown.png" alt="Yanlış" className='result-icon2' />Yanlış: {wrongCount}</p>
+      <p className="p4"><img src="/images/skipped.png" alt="Boş" className='result-icon3' />Boş: {skippedCount}</p>
 
       <div className="details">
         <h4>Detaylı Sonuçlar:</h4>
